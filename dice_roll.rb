@@ -3,7 +3,10 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  die = [1,2,3,4,5,6]
-  puts die.sample
-  return die.sample
+  die = rand(6)
+  puts die
+  return die
+  #die = [1,2,3,4,5,6]
+  #puts die.sample
+  #return die.sample
 end
